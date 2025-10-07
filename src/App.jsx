@@ -198,7 +198,7 @@ function App() {
                   borderRadius: 12,
                   minHeight: 220,
                   textAlign: "center",
-                  transition: "transform 0.3s, box-shadow 0.3s",
+                  transition: "transform 0.3s, box-shadow 0.3s, background-color #F57927",
                   cursor: "pointer",
                 }}
                 onClick={() => openServiceModal(service)}
