@@ -15,3 +15,14 @@ html, body {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+/* Remove default blue background for selected menu item */
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: transparent !important;
+  color: #fff !important; /* keep text white */
+}
+
+/* Hover effect */
+.ant-menu-dark .ant-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #fff !important;
+}
