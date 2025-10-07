@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+  width: 0px;   /* Width of vertical scrollbar */
+  height: 0px;  /* Height of horizontal scrollbar */
+}
+
+html, body {
+  -ms-overflow-style: none;  /* For IE & Edge: hides scrollbar */
+  scrollbar-width: none;     /* For Firefox: hides scrollbar */
+  overflow-x: hidden;        /* Prevent horizontal scroll */
+    scroll-behavior: smooth;
+
+}
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
